@@ -61,6 +61,17 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
+
+  window.addEventListener("load", function() {
+    const firstColumn = document.getElementById("first-column");
+    const secondColumn = document.getElementById("second-column");
+
+    if (firstColumn.clientHeight > secondColumn.clientHeight) {
+      firstColumn.style.height = secondColumn.clientHeight + "px";
+    }
+  });
+
+
   /**
    * Scrolls to an element with header offset
    */
