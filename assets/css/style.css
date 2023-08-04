@@ -1038,7 +1038,11 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  
+  
+  
+  max-width: 100%;
 }
 
 /* .w-like-fix{
