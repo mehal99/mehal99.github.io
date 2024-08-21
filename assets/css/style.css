@@ -1006,8 +1006,8 @@ a:hover {
 .work-img img {
   transition: all 1s;
   width: 90%;
-  height: 125px; /* Set a preferred height for the images */
-  object-fit: cover; /* This will resize the images while preserving aspect ratio */
+  height: 145px; /* Set a preferred height for the images */
+  object-fit: cover; 
 }
 
 .work-content {
@@ -1038,7 +1038,7 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   
   
   
